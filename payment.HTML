@@ -1,0 +1,139 @@
+
+
+                  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment</title>
+    <!----botstrap css-->
+    <link rel="stylesheet" href="cs/bootstrap.min.css">
+    <!---main css-->
+    <link rel="stylesheet" href="cs/payment.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script type="text/javascript" src="validation.js"></script>
+    
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Roboto Slab', Courier, monospace;
+          
+          } 
+        </style>
+
+
+     <div class="container">
+       <h1><div class="py-1 text-center">PAYMENT</div></h1>
+         
+         <div class="row justify-content-center ">
+             
+             <div class="col-md-8 ">
+         
+              <div class="flex-box">
+           
+           
+           
+          <form  onsubmit="return  validation()"   action="" method="post" class="bg-light formss"  enctype="multipart/form-data">
+
+          <div class="row">
+              <div class="col-md-6 mb-3">
+                  <!-- first name-->
+
+             
+             
+                  <label for="CardID">CARDID</label>
+                  <input type="text" class="form-control" id="cardid"  name="CardID"  placeholder="Enter CARDID" >
+                  <span id="cardidl" class="text-danger font-weight-bold"></span>
+                </div>
+                  <!--Last Name-->
+
+                <div class="col-md-6 mb-3">
+                    <label for="OID">OID</label>
+                    <input type="text" class="form-control" id="oid" name="OID" placeholder="Enter OID" value="">
+                    <span id="oidl" class="text-danger font-weight-bold"></span>
+          </div>
+
+         
+        </div>
+
+               
+	                      <div class="mb-3">
+                        <label for="username">PAMOUNT</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"></div>
+                          </div>
+                          <input type="text" class="form-control" id="pamount" name="PAMOUNT" placeholder="Enter PAMOUNT" >
+                          <span id="pamountl" class= "text-danger font-weight-bold"></span>
+                        </div>
+                  
+              
+                      <div class="mb-3">
+                        <label for="email">PDATE </label>
+                        <input type="date" class="form-control" id="pdate" name="PDATE" placeholder="Enter PDATE" >
+                        <span id="pdatel" class="text-danger font-weight-bold"></span>
+                      </div>
+
+              
+                                          
+                      <div class="mb-3">
+                        <label for="Password">PID</label>
+                        <input type="text" class="form-control" id="pid" name="PID" placeholder="Enter PID" >
+                        <span id="pidl" class="text-danger font-weight-bold"></span>
+                      </div>
+    
+                      <div class="mb-3 form-group">
+                        <label for="PSTATUS">PSTATUS</label>
+                        <div class="col-sm-2">
+                            <select class="form-control" id="pstatus">
+                              <option>PAID</option>
+                              <option>UNPAID</option>
+                            </select>          
+                            <span id="pstatusl" class="text-danger font-weight-bold" ></span>
+                            </div>
+                      
+                      
+                      </div>
+
+                    
+                        
+                          
+                             
+                         
+     
+                      <button  class="btn btn-primary" type="submit" name="submit" id="submit">SUBMIT</button>
+                      <a href="index.php" class="btn btn-danger">Back</a>
+                         
+                      
+                   
+         
+    
+       </div>
+      </form>
+                 </div>
+           
+         
+        
+
+          
+          
+         
+     
+
+
+             
+    
+
+
+
+
+ 
+         
+
+
+
+</body>
+</html>
