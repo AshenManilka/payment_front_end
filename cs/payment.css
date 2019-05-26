@@ -9,13 +9,15 @@ body {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #f5f5f5;
+    background-color: #534e4e;
 
   
     font-family: 'Roboto Slab', Courier, monospace;
        
     background: url( '/img/797.jpg') no-repeat;
     background-size: cover; 
+
+    
   }
   
   .form-signin {
@@ -41,12 +43,13 @@ body {
         top:0vh;
         padding: 30px;
         border-radius: 10px;
-        box-shadow: 3px 3px 3px 3px rgb(33, 34, 34);
+        box-shadow: 3px 3px 3px 3px rgb(24, 27, 27);
       
         opacity: 0.8;
        
 
       }
+
    
    
   
