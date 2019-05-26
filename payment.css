@@ -7,8 +7,7 @@ body {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+   
     background-color: #534e4e;
 
   
@@ -16,10 +15,31 @@ body {
        
     background: url( '797.jpg') no-repeat;
     background-size: cover; 
-
+    width: 100%;  
+    background-repeat: no-repeat;
+    background-position: center center;
+   
     
   }
   
+  .container-contact100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: rgba(25, 25, 26, 0.7);
+  }
+  
+
+
+
   .form-signin {
     width: 100%;
     max-width: 420px;
